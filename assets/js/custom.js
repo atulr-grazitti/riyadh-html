@@ -169,6 +169,22 @@ jQuery(window).on('load resize', function() {
                 }
             }
         });
+
+        /*Artist Slider*/
+        $('.artistSlider').owlCarousel({
+            nav: 1,
+            dots: !1,
+            margin: 15,
+            loop: 1,
+            items: 1,
+            rtl: true,
+            thumbs: true,
+            thumbImage: false,
+            thumbsPrerendered: true,
+            thumbContainerClass: 'owl-thumbs',
+            thumbItemClass: 'owl-thumb-item',
+            navText: ['<span class="prev">＜</span>', '<span class="next">＞</span>']
+        });
     } else {
         $('#programs_slider').owlCarousel({
             loop: 1,
@@ -193,6 +209,21 @@ jQuery(window).on('load resize', function() {
                     items: 4
                 }
             }
+        });
+
+        /*Artist Slider*/
+        $('.artistSlider').owlCarousel({
+            nav: 1,
+            dots: !1,
+            margin: 15,
+            loop: 1,
+            items: 1,
+            thumbs: true,
+            thumbImage: false,
+            thumbsPrerendered: true,
+            thumbContainerClass: 'owl-thumbs',
+            thumbItemClass: 'owl-thumb-item',
+            navText: ['<span class="prev">＜</span>', '<span class="next">＞</span>']
         });
     }
 });

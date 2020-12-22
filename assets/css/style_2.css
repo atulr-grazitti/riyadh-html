@@ -1,0 +1,1643 @@
+<<<<<<< HEAD
+/*About L1 Page*/
+/*sponsor section*/
+.sponsor_container .sponsor_row {
+    flex-wrap: wrap;
+    padding: 66px 0 122px;
+}
+
+.sponsor_container .sponsor_col {
+    width: 23%;
+    margin-right: 2.66%;
+    padding: 22px 15px 23px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    align-items: center;
+}
+
+.sponsor_container .sponsor_col:nth-child(4n) {
+    margin-right: 0;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_col {
+    margin-right: 0;
+    margin-left: 2.66%;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(4n) {
+    margin-left: 0;
+}
+
+.sponsor_container .sponsor_img {
+    width: 55px;
+    height: 55px;
+    background: #000;
+    border-radius: 50%;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_img {
+    margin-right: 0;
+    margin-left: 18px;
+}
+
+.sponsor_container .sponsor_text {
+    font-weight: 800;
+    line-height: 30px;
+    position: relative;
+    top: 0.15em;
+    font-size: 30px;
+    display: inline-block;
+    word-break: break-word;
+}
+
+/*our vision section*/
+.our_vision_container .our_vision_wrapper {
+    background: #fff;
+    padding: 55px 30px 105px;
+}
+
+.our_vision_container .our_vision_row {
+    margin-bottom: 125px;
+}
+
+.our_vision_container .our_vision_row:last-child {
+    margin-bottom: 0;
+}
+
+.our_vision_container .our_vision_row.revRow {
+    flex-direction: row-reverse;
+}
+
+.our_vision_container .our_vision_row > div {
+    width: 50%;
+}
+
+.our_vision_container .our_vision_Desc {
+    padding-right: 30px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_Desc {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.our_vision_container .our_vision_Desc h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.our_vision_container .our_vision_Desc p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.our_vision_container .our_vision_Desc *:last-child {
+    margin-bottom: 0;
+}
+
+.our_vision_container .our_vision_img {
+    padding-left: 100px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_img {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.our_vision_container .imgDesc {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.our_vision_container .our_vision_wrapper.revRow {
+    flex-direction: row-reverse;
+}
+
+.our_vision_container .our_vision_row.revRow .our_vision_Desc {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_Desc {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.our_vision_container .our_vision_row.revRow .our_vision_img {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_img {
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.our_vision_container .download_links_wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.our_vision_container .download_links_wrapper > * {
+    border-bottom: 1px solid #000;
+}
+
+.our_vision_container .download_links_wrapper h2 {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+
+.our_vision_container .download_links_wrapper .download_link {
+    width: 100%;
+    padding: 12px 0;
+    color: #212121;
+    text-decoration: none;
+    padding-right: 35px;
+    position: relative;
+}
+
+html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link {
+    padding-left: 35px;
+    padding-right: 0;
+}
+
+.our_vision_container .download_links_wrapper .download_link .arrowicon {
+    display: inline-block;
+    margin-top: -2px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    transform: translateY(-50%);
+}
+
+html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link .arrowicon {
+    left: 0;
+    right: auto;
+    transform: rotate(180deg) translateY(50%);
+}
+
+/*Media Mentions*/
+.artist_container.about_page {
+    padding-bottom: 173px;
+}
+
+.artist_container.about_page .artist_inner {
+    padding: 63px 0;
+}
+
+.artist_container.about_page .artist_col .artist_content strong {
+    text-transform: uppercase;
+}
+
+/*Collab Section*/
+.collabSection .programRows.about_page {
+    padding-bottom: 47px;
+}
+
+
+/*Program L2 Page*/
+.programl2 .programMainHeading {
+    padding-bottom: 94px;
+}
+
+.programl2 .artistRows a.exploreBtn {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.media_contact_section {
+    width: 100%;
+    background-image: url(../images/mediaContactbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 154px 130px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.media_contact_section h2 {
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 270px;
+}
+
+.media_contact_section p {
+    padding: 0 39px 0 29px;
+    flex-grow: 1;
+    font-size: 24px;
+    line-height: 138%;
+}
+
+.media_contact_section .exploreBtn {
+    margin: 0;
+}
+
+/*Locations Section*/
+.location_section .artist_inner {
+    padding: 131px 15px 79px;
+}
+
+.location_frame_wrapper {
+    position: relative;
+    height: 375px;
+    width: 100%;
+}
+
+.location_frame_wrapper .location_frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.location_direction_row {
+    padding: 41px 0 180px;
+}
+
+.location_direction_row .direction_col {
+    width: 23%;
+    margin-right: 2.66%;
+}
+
+.location_direction_row .direction_col:nth-child(4n) {
+    margin-right: 0;
+}
+
+.location_direction_row .direction_col .filters .filter .dropDownFilter .selectedOption,
+.location_direction_row .direction_col .filters .filter .dropDownFilter .optionListing li {
+    width: 100%;
+}
+
+.location_direction_row .direction_col h4 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 1em;
+}
+
+.location_direction_row .direction_col p {
+    font-size: 16px;
+    line-height: 130%;
+}
+
+/*ticket Section*/
+.tickets_section .artist_inner {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.tickets_section .tickets_wrapper {
+    padding: 0;
+    word-break: break-word;
+}
+
+html[dir="rtl"] .tickets_section .tickets_wrapper {
+    padding-left: 0;
+}
+
+.tickets_section .ticket_row {
+    width: 100%;
+    padding: 29px 0;
+    border-top: 1px solid #000;
+}
+
+.tickets_section .ticket_row:last-child {
+    border-bottom: 1px solid #000;
+    color: #212121;
+}
+
+.tickets_section .ticket_row .event_details {
+    width: 25%;
+    color: #212121;
+}
+
+.tickets_section .ticket_row .buyButtons {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin: 0 0 0 auto;
+}
+
+html[dir="rtl"] .tickets_section .ticket_row .buyButtons {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.tickets_section .ticket_row .typeLocation {
+    width: 35%;
+    margin-top: 0;
+    align-items: center;
+
+}
+
+.tickets_section .ticket_row .buyButtons .buyBtn {
+    margin-bottom: 0;
+}
+
+.tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+    margin-left: 30px;
+}
+
+/*Volunteer Section*/
+.volunteer_section .artist_inner {
+    padding: 121px 0 64px;
+}
+
+.volunteer_section .artist_inner h2 {
+    margin-bottom: 36px;
+}
+
+.volunteer_section .artist_inner p {
+    margin-bottom: 31px;
+}
+
+.volunteer_section .artist_inner .buyBtn {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.volunteer_section .about_explore .about_inner {
+    padding-bottom: 35px;
+}
+
+.volunteer_section .about_explore {
+    padding-bottom: 64px;
+}
+
+
+/*Artist L2*/
+.artist_l2 .programMainHeading {
+    padding-top: 203px;
+    padding-bottom: 99px;
+}
+
+.artist_carousel {
+    margin-bottom: 65px;
+}
+
+.artistSlider .owl-nav,
+#artist_slider .owl-nav {
+    position: absolute;
+    top: 35%;
+    /*max-width: 1200px;*/
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistSlider .owl-nav .owl-prev,
+#artist_slider .owl-nav .owl-prev {
+    /*opacity: 0;*/
+    transform: scaleX(-1);
+}
+
+.owl-nav button.disabled {
+    opacity: 0;
+}
+
+.artistSlider .owl-nav button,
+#artist_slider .owl-nav button {
+    height: 50px;
+    width: 50px;
+    background: #000 !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    position: relative;
+    border: 0;
+}
+
+.artistSlider .owl-nav button:after,
+#artist_slider .owl-nav button:after {
+    content: "";
+    height: 11px;
+    width: 26px;
+    background-image: url('../images/sliderArrow.svg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artistSlider .owl-stage-outer {
+    margin-bottom: 25px;
+}
+
+.artistSlider .owl-thumbs {
+    display: flex;
+}
+
+.artistSlider .owl-thumbs .owl-thumb-item {
+    width: 19%;
+    margin-right: 1.25%;
+    border: 0;
+    outline: 0;
+
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail {
+    width: 65%;
+    padding: 43px 15px 0 0;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist-sidebar {
+    width: 35%;
+    padding: 43px 0px 43px 33px;
+    border-left: 1px solid #000;
+}
+
+.artist_detail_row .artist_col_detail .artist_card {
+    margin-bottom: 68px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_img {
+    margin-right: 56px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_img > img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .name {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .name h4 {
+    font-weight: 800;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .social a {
+    width: 39px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .social i {
+    color: #000;
+    font-size: 18px;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail .desc_area p {
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 1em;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail .desc_area *:last-child {
+    margin-bottom: 0;
+}
+
+.artist-sidebar .sidebar_program:not(:first-child) {
+    margin-top: 1em;
+}
+
+.artist-sidebar .upcomming_dates {
+    margin-top: 50px;
+}
+
+.artist-sidebar .upcomming_dates h4 {
+    padding-bottom: 20px;
+}
+
+.artist-sidebar .upcomming_dates p {
+    border-top: 1px solid #000;
+    padding: 14px 0 11px 40px;
+    position: relative;
+}
+
+.artist-sidebar .upcomming_dates p:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 37px;
+    background-image: url(../images/calendar_icon_dark.png);
+}
+
+.artist-sidebar .upcomming_dates p:last-child {
+    border-bottom: 1px solid #000;
+}
+
+html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist_col_detail {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+html[dir="rtl"]  .artist_detail_row .artist_col_detail .artist_card .artist_img {
+    margin-left: 56px;
+    margin-right: 0;
+}
+
+html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
+    border-left: 0;
+    border-right: 1px solid #000;
+    padding-left: 0;
+    padding-right: 33px;
+}
+html[dir="rtl"] .artist-sidebar .upcomming_dates p {
+    padding: 14px 40px 11px 0;
+}
+html[dir="rtl"] .artist-sidebar .upcomming_dates p:after {
+    left: auto;
+    right: 0;
+}
+
+@media(max-width:1023px) {
+    .sponsor_container .sponsor_col {
+        width: 48%;
+        margin-right: 4%;
+    }
+
+    .sponsor_container .sponsor_col:nth-child(4n) {
+        margin-right: 4%;
+    }
+
+    .sponsor_container .sponsor_col:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col {
+        margin-left: 4%;
+        margin-right: 0;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(4n) {
+        margin-left: 0;
+        margin-right: 4%;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(2n) {
+        margin-right: 0%;
+        margin-left: 0;
+    }
+
+    .our_vision_container .our_vision_row {
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .our_vision_container .our_vision_row > div {
+        width: 100%;
+    }
+
+    .our_vision_container .our_vision_Desc {
+        padding-right: 0;
+        margin-bottom: 100px;
+    }
+
+    .our_vision_container .our_vision_img {
+        padding-left: 0;
+    }
+
+    .our_vision_container .our_vision_img .cardImg {
+        width: 100%;
+    }
+
+    .our_vision_container .our_vision_img .cardImg,
+    .our_vision_container .our_vision_img .imgDesc {
+        padding: 0 20px;
+    }
+
+    .our_vision_container .our_vision_row.revRow .our_vision_Desc {
+        padding-left: 0;
+    }
+
+    .our_vision_container .our_vision_row.revRow .our_vision_img {
+        padding-right: 0;
+    }
+
+    .our_vision_container .download_links_wrapper {
+        margin-top: 100px;
+    }
+
+    html[dir="rtl"] .our_vision_container .our_vision_img {
+        padding-right: 0;
+    }
+
+    html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_img {
+        padding-left: 0;
+    }
+
+    /*Program L2 Page*/
+    .artistRows a.exploreBtn {
+        margin-bottom: 62px;
+    }
+
+
+    .media_contact_section {
+        padding: 84px 30px;
+        flex-direction: column;
+    }
+
+    .location_section .artist_inner {
+        padding: 75px 30px 77px;
+    }
+
+    .location_section .artist_inner h2 {
+        margin-bottom: 0;
+    }
+
+    .media_contact_section h2 {
+        margin-bottom: 25px;
+        max-width: 100%;
+        font-size: 30px;
+    }
+
+    .media_contact_section p {
+        line-height: 18.2px;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .location_frame_wrapper {
+        height: 402px;
+    }
+
+    .location_direction_row {
+        padding-bottom: 66px;
+        flex-direction: column;
+    }
+
+    .location_direction_row .direction_col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .tickets_section .artist_inner {
+        padding-bottom: 52px;
+    }
+
+    .tickets_section .artist_inner h2 {
+        margin-bottom: 0;
+    }
+
+    .tickets_section .tickets_wrapper {
+        margin: 0;
+    }
+
+    .tickets_section .ticket_row {
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .tickets_section .ticket_row:last-child {
+        border-bottom: 0;
+    }
+
+    .tickets_section .ticket_row .event_details,
+    .tickets_section .ticket_row .typeLocation,
+    .tickets_section .ticket_row .buyButtons {
+        width: 100%;
+    }
+
+    .tickets_section .ticket_row .event_details {
+        margin-bottom: 20px;
+    }
+
+    .tickets_section .ticket_row .typeLocation {
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
+    .tickets_section .ticket_row .buyButtons .buyBtn {
+        width: 48%;
+    }
+
+    .tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+        margin-left: 0;
+    }
+
+    .volunteer_section .about_explore > img {
+        height: 403px;
+        object-fit: cover;
+    }
+
+    .volunteer_section .about_explore {
+        padding-bottom: 0;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .sponsor_container .sponsor_row {
+        padding: 34px 0 82px;
+    }
+
+    .sponsor_container .sponsor_col {
+        padding: 13px 15px 14px;
+    }
+
+    .sponsor_container .sponsor_img {
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+    }
+
+    .sponsor_container .sponsor_text {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .our_vision_container {
+        position: relative;
+    }
+
+    .our_vision_container::after {
+        content: ' ';
+        background: #fff;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .our_vision_container .our_vision_wrapper {
+        padding: 43px 15px 59px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .our_vision_container .our_vision_Desc h2 {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .our_vision_container .our_vision_Desc p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+
+    .artist_container.about_page {
+        padding-top: 60px;
+        padding-bottom: 44px;
+    }
+
+}
+=======
+/*About L1 Page*/
+/*sponsor section*/
+.sponsor_container .sponsor_row {
+    flex-wrap: wrap;
+    padding: 66px 0 122px;
+}
+
+.sponsor_container .sponsor_col {
+    width: 23%;
+    margin-right: 2.66%;
+    padding: 22px 15px 23px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    align-items: center;
+}
+
+.sponsor_container .sponsor_col:nth-child(4n) {
+    margin-right: 0;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_col {
+    margin-right: 0;
+    margin-left: 2.66%;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(4n) {
+    margin-left: 0;
+}
+
+.sponsor_container .sponsor_img {
+    width: 55px;
+    height: 55px;
+    background: #000;
+    border-radius: 50%;
+    margin-right: 18px;
+    flex-shrink: 0;
+}
+
+html[dir="rtl"] .sponsor_container .sponsor_img {
+    margin-right: 0;
+    margin-left: 18px;
+}
+
+.sponsor_container .sponsor_text {
+    font-weight: 800;
+    line-height: 30px;
+    position: relative;
+    top: 0.15em;
+    font-size: 30px;
+    display: inline-block;
+    word-break: break-word;
+}
+
+/*our vision section*/
+.our_vision_container .our_vision_wrapper {
+    background: #fff;
+    padding: 55px 30px 105px;
+}
+
+.our_vision_container .our_vision_row {
+    margin-bottom: 125px;
+}
+
+.our_vision_container .our_vision_row:last-child {
+    margin-bottom: 0;
+}
+
+.our_vision_container .our_vision_row.revRow {
+    flex-direction: row-reverse;
+}
+
+.our_vision_container .our_vision_row > div {
+    width: 50%;
+}
+
+.our_vision_container .our_vision_Desc {
+    padding-right: 30px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_Desc {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.our_vision_container .our_vision_Desc h2 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 75px;
+}
+
+.our_vision_container .our_vision_Desc p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+
+.our_vision_container .our_vision_Desc *:last-child {
+    margin-bottom: 0;
+}
+
+.our_vision_container .our_vision_img {
+    padding-left: 100px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_img {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+.our_vision_container .imgDesc {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.our_vision_container .our_vision_wrapper.revRow {
+    flex-direction: row-reverse;
+}
+
+.our_vision_container .our_vision_row.revRow .our_vision_Desc {
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_Desc {
+    padding-right: 30px;
+    padding-left: 0px;
+}
+
+.our_vision_container .our_vision_row.revRow .our_vision_img {
+    padding-left: 0;
+    padding-right: 100px;
+}
+
+html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_img {
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.our_vision_container .download_links_wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.our_vision_container .download_links_wrapper > * {
+    border-bottom: 1px solid #000;
+}
+
+.our_vision_container .download_links_wrapper h2 {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 12px 0;
+}
+
+.our_vision_container .download_links_wrapper .download_link {
+    width: 100%;
+    padding: 12px 0;
+    color: #212121;
+    text-decoration: none;
+    padding-right: 35px;
+    position: relative;
+}
+
+html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link {
+    padding-left: 35px;
+    padding-right: 0;
+}
+
+.our_vision_container .download_links_wrapper .download_link .arrowicon {
+    display: inline-block;
+    margin-top: -2px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    transform: translateY(-50%);
+}
+
+html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link .arrowicon {
+    left: 0;
+    right: auto;
+    transform: rotate(180deg) translateY(50%);
+}
+
+/*Media Mentions*/
+.artist_container.about_page {
+    padding-bottom: 173px;
+}
+
+.artist_container.about_page .artist_inner {
+    padding: 63px 0;
+}
+
+.artist_container.about_page .artist_col .artist_content strong {
+    text-transform: uppercase;
+}
+
+/*Collab Section*/
+.collabSection .programRows.about_page {
+    padding-bottom: 47px;
+}
+
+
+/*Program L2 Page*/
+.programl2 .programMainHeading {
+    padding-bottom: 94px;
+}
+
+.programl2 .artistRows a.exploreBtn {
+    background: #fff;
+    color: #000;
+    border-color: #000;
+}
+
+.media_contact_section {
+    width: 100%;
+    background-image: url(../images/mediaContactbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 154px 130px;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.media_contact_section h2 {
+    font-weight: bold;
+    font-size: 40px;
+    max-width: 270px;
+}
+
+.media_contact_section p {
+    padding: 0 39px 0 29px;
+    flex-grow: 1;
+    font-size: 24px;
+    line-height: 138%;
+}
+
+.media_contact_section .exploreBtn {
+    margin: 0;
+}
+
+/*Locations Section*/
+.location_section .artist_inner {
+    padding: 131px 15px 79px;
+}
+
+.location_frame_wrapper {
+    position: relative;
+    height: 375px;
+    width: 100%;
+}
+
+.location_frame_wrapper .location_frame {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.location_direction_row {
+    padding: 41px 0 180px;
+}
+
+.location_direction_row .direction_col {
+    width: 23%;
+    margin-right: 2.66%;
+}
+
+.location_direction_row .direction_col:nth-child(4n) {
+    margin-right: 0;
+}
+
+.location_direction_row .direction_col .filters .filter .dropDownFilter .selectedOption,
+.location_direction_row .direction_col .filters .filter .dropDownFilter .optionListing li {
+    width: 100%;
+}
+
+.location_direction_row .direction_col h4 {
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 130%;
+    margin-bottom: 1em;
+}
+
+.location_direction_row .direction_col p {
+    font-size: 16px;
+    line-height: 130%;
+}
+
+/*ticket Section*/
+.tickets_section .artist_inner {
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.tickets_section .tickets_wrapper {
+    padding: 0;
+    word-break: break-word;
+}
+
+html[dir="rtl"] .tickets_section .tickets_wrapper {
+    padding-left: 0;
+}
+
+.tickets_section .ticket_row {
+    width: 100%;
+    padding: 29px 0;
+    border-top: 1px solid #000;
+}
+
+.tickets_section .ticket_row:last-child {
+    border-bottom: 1px solid #000;
+    color: #212121;
+}
+
+.tickets_section .ticket_row .event_details {
+    width: 25%;
+    color: #212121;
+}
+
+.tickets_section .ticket_row .buyButtons {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    margin: 0 0 0 auto;
+}
+
+html[dir="rtl"] .tickets_section .ticket_row .buyButtons {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+html[dir="rtl"] .tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.tickets_section .ticket_row .typeLocation {
+    width: 35%;
+    margin-top: 0;
+    align-items: center;
+
+}
+
+.tickets_section .ticket_row .buyButtons .buyBtn {
+    margin-bottom: 0;
+}
+
+.tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+    margin-left: 30px;
+}
+
+/*Volunteer Section*/
+.volunteer_section .artist_inner {
+    padding: 121px 0 64px;
+}
+
+.volunteer_section .artist_inner h2 {
+    margin-bottom: 36px;
+}
+
+.volunteer_section .artist_inner p {
+    margin-bottom: 31px;
+}
+
+.volunteer_section .artist_inner .buyBtn {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.volunteer_section .about_explore .about_inner {
+    padding-bottom: 35px;
+}
+
+.volunteer_section .about_explore {
+    padding-bottom: 64px;
+}
+
+
+/*Artist L2*/
+.artist_l2 .programMainHeading {
+    padding-top: 203px;
+    padding-bottom: 99px;
+}
+
+.artist_carousel {
+    margin-bottom: 65px;
+}
+
+.artistSlider .owl-nav,
+#artist_slider .owl-nav {
+    position: absolute;
+    top: 35%;
+    /*max-width: 1200px;*/
+    left: 50%;
+    transform: translateX(-50%);
+    width: 105%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artistSlider .owl-nav .owl-prev,
+#artist_slider .owl-nav .owl-prev {
+    /*opacity: 0;*/
+    transform: scaleX(-1);
+}
+
+.owl-nav button.disabled {
+    opacity: 0;
+}
+
+.artistSlider .owl-nav button,
+#artist_slider .owl-nav button {
+    height: 50px;
+    width: 50px;
+    background: #000 !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 0;
+    position: relative;
+    border: 0;
+}
+
+.artistSlider .owl-nav button:after,
+#artist_slider .owl-nav button:after {
+    content: "";
+    height: 11px;
+    width: 26px;
+    background-image: url('../images/sliderArrow.svg');
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artistSlider .owl-stage-outer {
+    margin-bottom: 25px;
+}
+
+.artistSlider .owl-thumbs {
+    display: flex;
+}
+
+.artistSlider .owl-thumbs .owl-thumb-item {
+    width: 19%;
+    margin-right: 1.25%;
+    border: 0;
+    outline: 0;
+
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail {
+    width: 65%;
+    padding: 43px 15px 0 0;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist-sidebar {
+    width: 35%;
+    padding: 43px 0px 43px 33px;
+    border-left: 1px solid #000;
+}
+
+.artist_detail_row .artist_col_detail .artist_card {
+    margin-bottom: 68px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_img {
+    margin-right: 56px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_img > img {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail {
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .name {
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .name h4 {
+    font-weight: 800;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .social a {
+    width: 39px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artist_detail_row .artist_col_detail .artist_card .artist_detail .social i {
+    color: #000;
+    font-size: 18px;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail .desc_area p {
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 1em;
+}
+
+.artist_detail_wrapper .artist_detail_row .artist_col_detail .desc_area *:last-child {
+    margin-bottom: 0;
+}
+
+.artist-sidebar .sidebar_program:not(:first-child) {
+    margin-top: 1em;
+}
+
+.artist-sidebar .upcomming_dates {
+    margin-top: 50px;
+}
+
+.artist-sidebar .upcomming_dates h4 {
+    padding-bottom: 20px;
+}
+
+.artist-sidebar .upcomming_dates p {
+    border-top: 1px solid #000;
+    padding: 14px 0 11px 40px;
+    position: relative;
+}
+
+.artist-sidebar .upcomming_dates p:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 37px;
+    background-image: url(../images/calendar_icon_dark.png);
+}
+
+.artist-sidebar .upcomming_dates p:last-child {
+    border-bottom: 1px solid #000;
+}
+
+html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist_col_detail {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+html[dir="rtl"]  .artist_detail_row .artist_col_detail .artist_card .artist_img {
+    margin-left: 56px;
+    margin-right: 0;
+}
+
+html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
+    border-left: 0;
+    border-right: 1px solid #000;
+    padding-left: 0;
+    padding-right: 33px;
+}
+html[dir="rtl"] .artist-sidebar .upcomming_dates p {
+    padding: 14px 40px 11px 0;
+}
+html[dir="rtl"] .artist-sidebar .upcomming_dates p:after {
+    left: auto;
+    right: 0;
+}
+
+@media(max-width:1023px) {
+    .sponsor_container .sponsor_col {
+        width: 48%;
+        margin-right: 4%;
+    }
+
+    .sponsor_container .sponsor_col:nth-child(4n) {
+        margin-right: 4%;
+    }
+
+    .sponsor_container .sponsor_col:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col {
+        margin-left: 4%;
+        margin-right: 0;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(4n) {
+        margin-left: 0;
+        margin-right: 4%;
+    }
+
+    html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(2n) {
+        margin-right: 0%;
+        margin-left: 0;
+    }
+
+    .our_vision_container .our_vision_row {
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .our_vision_container .our_vision_row > div {
+        width: 100%;
+    }
+
+    .our_vision_container .our_vision_Desc {
+        padding-right: 0;
+        margin-bottom: 100px;
+    }
+
+    .our_vision_container .our_vision_img {
+        padding-left: 0;
+    }
+
+    .our_vision_container .our_vision_img .cardImg {
+        width: 100%;
+    }
+
+    .our_vision_container .our_vision_img .cardImg,
+    .our_vision_container .our_vision_img .imgDesc {
+        padding: 0 20px;
+    }
+
+    .our_vision_container .our_vision_row.revRow .our_vision_Desc {
+        padding-left: 0;
+    }
+
+    .our_vision_container .our_vision_row.revRow .our_vision_img {
+        padding-right: 0;
+    }
+
+    .our_vision_container .download_links_wrapper {
+        margin-top: 100px;
+    }
+
+    html[dir="rtl"] .our_vision_container .our_vision_img {
+        padding-right: 0;
+    }
+
+    html[dir="rtl"] .our_vision_container .our_vision_row.revRow .our_vision_img {
+        padding-left: 0;
+    }
+
+    /*Program L2 Page*/
+    .artistRows a.exploreBtn {
+        margin-bottom: 62px;
+    }
+
+
+    .media_contact_section {
+        padding: 84px 30px;
+        flex-direction: column;
+    }
+
+    .location_section .artist_inner {
+        padding: 75px 30px 77px;
+    }
+
+    .location_section .artist_inner h2 {
+        margin-bottom: 0;
+    }
+
+    .media_contact_section h2 {
+        margin-bottom: 25px;
+        max-width: 100%;
+        font-size: 30px;
+    }
+
+    .media_contact_section p {
+        line-height: 18.2px;
+        font-size: 14px;
+        margin-bottom: 50px;
+    }
+
+    .location_frame_wrapper {
+        height: 402px;
+    }
+
+    .location_direction_row {
+        padding-bottom: 66px;
+        flex-direction: column;
+    }
+
+    .location_direction_row .direction_col {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .tickets_section .artist_inner {
+        padding-bottom: 52px;
+    }
+
+    .tickets_section .artist_inner h2 {
+        margin-bottom: 0;
+    }
+
+    .tickets_section .tickets_wrapper {
+        margin: 0;
+    }
+
+    .tickets_section .ticket_row {
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+
+    .tickets_section .ticket_row:last-child {
+        border-bottom: 0;
+    }
+
+    .tickets_section .ticket_row .event_details,
+    .tickets_section .ticket_row .typeLocation,
+    .tickets_section .ticket_row .buyButtons {
+        width: 100%;
+    }
+
+    .tickets_section .ticket_row .event_details {
+        margin-bottom: 20px;
+    }
+
+    .tickets_section .ticket_row .typeLocation {
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+
+    .tickets_section .ticket_row .buyButtons .buyBtn {
+        width: 48%;
+    }
+
+    .tickets_section .ticket_row .buyButtons .buyBtn:last-child {
+        margin-left: 0;
+    }
+
+    .volunteer_section .about_explore > img {
+        height: 403px;
+        object-fit: cover;
+    }
+
+    .volunteer_section .about_explore {
+        padding-bottom: 0;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    .sponsor_container .sponsor_row {
+        padding: 34px 0 82px;
+    }
+
+    .sponsor_container .sponsor_col {
+        padding: 13px 15px 14px;
+    }
+
+    .sponsor_container .sponsor_img {
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+    }
+
+    .sponsor_container .sponsor_text {
+        font-size: 14px;
+        line-height: 1;
+    }
+
+    .our_vision_container {
+        position: relative;
+    }
+
+    .our_vision_container::after {
+        content: ' ';
+        background: #fff;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        width: 100vw;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+
+    .our_vision_container .our_vision_wrapper {
+        padding: 43px 15px 59px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .our_vision_container .our_vision_Desc h2 {
+        font-size: 20px;
+        line-height: 110%;
+    }
+
+    .our_vision_container .our_vision_Desc p {
+        font-size: 14px;
+        line-height: 150%;
+    }
+
+
+    .artist_container.about_page {
+        padding-top: 60px;
+        padding-bottom: 44px;
+    }
+
+}
+>>>>>>> 4d10ed5ba1b971bb6d5f9801962e5c1596422dff
