@@ -16,8 +16,8 @@ $(document).ready(function() {
     }
 
     $('.selectedOption').click(function(){
-        $('.optionListing').hide();
-        $(this).next('.optionListing').show();
+        $('.optionListing').not(this).hide();
+        $(this).next('.optionListing').toggle();
         $('.selectedOption').removeClass('opened');
         $(this).addClass('opened');
     });

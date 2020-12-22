@@ -1003,6 +1003,10 @@ html[dir="rtl"] .artist_col .artist_content a.seeArtist span {
 .topIcon {
     margin-right: 120px;
 }
+html[dir="rtl"] .topIcon {
+    margin-right: 0;
+    margin-left: 120px;
+}
 
 .topIcon a {
     font-size: 16px;
@@ -1018,15 +1022,26 @@ html[dir="rtl"] .artist_col .artist_content a.seeArtist span {
     margin: 0 10px 0 0;
     max-height: 48px;
 }
+html[dir="rtl"] .topIcon span {
+    margin-right: 0;
+    margin-left: 10px;
+}
 .topIcon span:last-child {
     margin-right: 0;
 }
+html[dir="rtl"] .topIcon span:last-child {
+    margin-left: 0;
+} 
 .topIcon span img {
     display: block;
     max-width: 40px;
 }
 .footer .socialMenu {
     margin-left: auto;
+}
+html[dir="rtl"] .footer .socialMenu {
+    margin-left: 0;
+    margin-right: auto;
 }
 .footerMenu ul,
 .socialMenu ul {
@@ -1479,6 +1494,13 @@ html[dir="rtl"] .buyButtons {
 .artistRows .artistRow:nth-child(3n){
     margin-right: 0;
 }
+html[dir="rtl"] .artistRows .artistRow {
+    margin-left: 2.6%;
+    margin-right: 0;
+}
+html[dir="rtl"] .artistRows .artistRow:nth-child(3n){
+    margin-left: 0;
+}
 .artistRows .artistRow .artistContent > p, .artWorkNames p {
     font-size: 16px;
     line-height: 21px;
@@ -1531,6 +1553,10 @@ html[dir="rtl"] .buyButtons {
     margin-top: 5px;
     margin-left: 7px;
 }
+html[dir="rtl"] .artistContent .btnGroup > span > span {
+    margin-left: 0px;
+    margin-right: 7px;
+}
 .artistContent .seeMoreArtist {
     display: flex;
     align-items: center;
@@ -1546,6 +1572,11 @@ html[dir="rtl"] .buyButtons {
     display: inline-block;
     margin-left: 6px;
     margin-top: -2px;
+}
+html[dir="rtl"] .artistContent .seeMoreArtist img {
+    margin-left: 0;
+    transform: scaleX(-1);
+    margin-right: 6px;
 }
 
 .loadMoreBtnWrap {
@@ -1582,6 +1613,10 @@ html[dir="rtl"] .buyButtons {
     padding: 0 19px;
     margin-right: 48px;
 }
+html[dir="rtl"] .artist_page .programRow .programDetails .btnWrapper .btnProgram {
+    margin-right: 0;
+    margin-left: 48px;
+}
 .artist_page .programRow .programDetails .btnWrapper .seeArtistSubmision {
     font-size: 14px;
     font-weight: 800;
@@ -1595,6 +1630,11 @@ html[dir="rtl"] .buyButtons {
     display: inline-block;
     margin-top: -4px;
 }
+html[dir="rtl"] .artist_page .programRow .programDetails .btnWrapper .seeArtistSubmision img {
+    margin-left: 0;
+    margin-right: 4px;
+    transform: scaleX(-1);
+}
 
 .filterSection > p {
     padding-left: 9px;
@@ -1604,6 +1644,11 @@ html[dir="rtl"] .buyButtons {
     position: relative;
     display: inline-block;
     margin-bottom: 12px;
+}
+
+html[dir="rtl"] .filterSection > p {
+    padding-left: 0px;
+    padding-right: 9px;
 }
 
 .filterSection > p:after {
@@ -1617,6 +1662,12 @@ html[dir="rtl"] .buyButtons {
     left: 110%;
     display: inline-block;
 }
+
+html[dir="rtl"] .filterSection > p:after {
+    left: auto;
+    right: 110%;
+}
+
 .iOS .filterSection > p:after {
     top: 50%;
 }
@@ -1626,6 +1677,10 @@ html[dir="rtl"] .buyButtons {
 }
 .filterSection .filters .filter {
     margin-right: 20px;
+}
+html[dir="rtl"] .filterSection .filters .filter {
+    margin-right: 0px;
+    margin-left: 20px;
 }
 .filterSection .filters .filter .btnFilter{
     min-width: 110px;
@@ -1651,11 +1706,12 @@ html[dir="rtl"] .buyButtons {
     border: 1px solid #000;
     width: 100%;
     display: none;
+    z-index: 1;
 }
 .filter .dropDownFilter .optionListing li {
     height: 35px;
     line-height: 38px;
-    width: 240px;
+    width: 100%;
     padding: 0 7px;
     border-bottom: 1px solid #000;
     cursor: pointer;
@@ -1693,7 +1749,16 @@ html[dir="rtl"] .buyButtons {
     top: 50%;
     transform: translateY(-50%) rotate(-90deg);
 }
+
 .filters .filter .dropDownFilter .selectedOption.opened:after {
+    transform: translateY(-50%) rotate(0deg);
+}
+html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption:after {
+    right: auto;
+    left: 10px;
+    transform: translateY(-50%) rotate(90deg);
+}
+html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
     transform: translateY(-50%) rotate(0deg);
 }
 /* Media Queries*/
@@ -2189,6 +2254,12 @@ html[dir="rtl"] .buyButtons {
     .artist_page .programMainHeading .mainHeading {
         margin-bottom: 15px;
     }
+    html[dir="rtl"] .filterSection .filters .filter {
+        margin-left: 12px;
+    }
+    .filters .filter .dropDownFilter .selectedOption {
+        width: 230px;
+    }
 }
 
 @media(max-width:767px) {
@@ -2480,6 +2551,20 @@ html[dir="rtl"] .buyButtons {
     .artist_page .programRows {
         padding-bottom: 5px;
     }
+    html[dir="rtl"] .filterSection .filters .filter {
+        margin-right: 0px !important;
+        margin-left: 0;
+    }
+    html[dir="rtl"] .filterSection .filters .filter:first-child {
+        margin-left: 5%;
+    }
+    html[dir="rtl"] .artist_page .filterSection .filters .filter:nth-child(2) {
+        margin-left: 0;
+    }
+    html[dir="rtl"] .artistRows .artistRow {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media(max-width:570px) {
@@ -2529,3 +2614,4 @@ html[dir="rtl"] .buyButtons {
         flex-direction: column;
     }
 }
+
