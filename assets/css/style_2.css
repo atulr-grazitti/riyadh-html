@@ -726,6 +726,9 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
 
 .eventl1 .artistRows .col_area .artistRow .artistImage img {
     width: 100%;
+    max-height: 480px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .eventl1 .artistRows .col_area .event_date {
@@ -767,16 +770,16 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     font-size: 24px;
 }
 
-.eventl1 .artistRows .col_area .col_item:nth-child(3) {
+.eventl1 .artistRows .col_area .col_item:nth-child(2) .event_date {
     top: 235px;
 }
 
-.eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
+.eventl1 .artistRows .col_area .col_item:nth-child(2) .event_date::after {
     left: auto;
     right: 0;
 }
 
-.eventl1 .artistRows .col_area .col_item:nth-child(4) {
+.eventl1 .artistRows .col_area .col_item:nth-child(2) {
     margin-top: 235px;
 }
 
@@ -813,7 +816,7 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     background: #000;
     height: 1px;
     position: absolute;
-    
+
 }
 
 .event_null_section .no_event h1 {
@@ -835,10 +838,51 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .event_date::after {
     right: 0;
 }
 
-html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
+html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_date::after {
     left: 0;
     right: auto;
 }
+
+/*Leaders and Curators L2 */
+.leaderCurator_row {
+    flex-wrap: wrap;
+}
+
+.leaderCurator_row .leaders_col {
+    margin-right: 2.5%;
+    width: 31.6%;
+    margin-bottom: 77px;
+}
+
+.leaderCurator_row .leaders_col:nth-child(3n) {
+    margin-right: 0;
+}
+
+.leaderCurator_row .leaders_col .imgArea img{
+    width: 100%;
+}
+
+.leaderCurator_row .leaders_col .contentArea {
+    padding: 30px 21px 0px 30px;
+}
+
+.leaderCurator_row .leaders_col .contentArea .leader_name {
+    text-transform: uppercase;
+}
+
+.leaderCurator_row .leaders_col .contentArea .job_title {
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.leaderCurator_row .leaders_col .contentArea .roles {
+    margin-bottom: 1em;
+}
+
+.leaders_section {
+    padding-bottom: 45px;
+}
+
 
 @media(max-width: 1024px) {
 
@@ -1027,16 +1071,16 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
     .aboutl2.artist_page .programMainHeading {
         padding-bottom: 100px;
     }
-    
+
     /*Event Null Section*/
     .event_null_section .no_event {
         padding: 60px 0;
     }
-    
+
     .event_null_section .calender_Section .artist_inner {
         padding-top: 60px;
     }
-    
+
     .event_null_section .artist_container.calender_Section {
         padding-bottom: 60px;
     }
@@ -1365,11 +1409,11 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
         margin-bottom: 5px;
     }
 
-    .eventl1 .artistRows .col_area .col_item:nth-child(3) {
+    .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_date {
         top: 0;
     }
 
-    .eventl1 .artistRows .col_area .col_item:nth-child(4) {
+    .eventl1 .artistRows .col_area .col_item:nth-child(2) {
         margin-top: 0;
     }
 
@@ -1388,7 +1432,7 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
     html[dir="rtl"] .eventl1 .filterSection .filters .filter:first-child {
         margin-left: 0;
     }
-    
+
     /*Event Null*/
     .eventl1.artist_page .filterSection .filters {
         padding-bottom: 0px;
