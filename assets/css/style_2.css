@@ -543,7 +543,7 @@ html[dir="rtl"] .tickets_section .ticket_row .typeLocation .type {
 }
 
 .artist-sidebar .upcomming_dates .event_list h4 {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .artist-sidebar .upcomming_dates p {
@@ -565,7 +565,7 @@ html[dir="rtl"] .tickets_section .ticket_row .typeLocation .type {
 }
 
 .artist-sidebar .upcomming_dates .event_info {
-    font-weight: 700;
+    font-weight: 800;
     padding-bottom: 12px;
     margin-bottom: 12px;
     border-bottom: 1px solid #000;
@@ -694,6 +694,150 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
 
 .ssl2 .artist_container.programs_container .artist_container {
     padding-bottom: 65px;
+}
+
+
+/*Event L1*/
+.eventl1.artist_page .programMainHeading {
+    padding-bottom: 20px;
+}
+
+.eventl1 .filters {
+    position: relative;
+    z-index: 8;
+}
+
+.eventl1 .artistRows .col_area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: -182px;
+}
+
+.eventl1 .artistRows .col_area:last-child {
+    margin-bottom: 100px;
+}
+
+.eventl1 .artistRows .col_area .artistRow {
+    width: 40%;
+    margin: 0;
+}
+
+.eventl1 .artistRows .col_area .artistRow .artistImage img {
+    width: 100%;
+}
+
+.eventl1 .artistRows .col_area .event_date {
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    height: 235px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eventl1 .artistRows .col_area .event_date::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    background: #000;
+    height: 1px;
+}
+
+.eventl1 .artistRows .col_area .event_date h1 {
+    font-size: 100px;
+    line-height: 0.5;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: -0.03em;
+    overflow: visible;
+}
+
+.eventl1 .artistRows .col_area .event_date h4 {
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.eventl1 .artistRows .col_area .event_date p {
+    font-size: 24px;
+}
+
+.eventl1 .artistRows .col_area .col_item:nth-child(3) {
+    top: 235px;
+}
+
+.eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
+    left: auto;
+    right: 0;
+}
+
+.eventl1 .artistRows .col_area .col_item:nth-child(4) {
+    margin-top: 235px;
+}
+
+.eventl1 .artistRows .artistRow .artistContent > p,
+.eventl1 .artWorkNames p {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.eventl1.about_explore {
+    padding-bottom: 66px;
+}
+
+.eventl1.vision_container {
+    padding-bottom: 0;
+}
+
+/*No event Section*/
+.event_null_section .no_event {
+    padding: 65px 0 168px;
+    text-align: center;
+    position: relative;
+}
+
+.event_null_section .no_event::after {
+    content: '';
+    width: 100%;
+    max-width: 370px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background: #000;
+    height: 1px;
+    position: absolute;
+    
+}
+
+.event_null_section .no_event h1 {
+    font-size: 40px;
+    line-height: 110%;
+    font-weight: 800;
+}
+
+.event_null_section .calender_Section .artist_inner {
+    padding-top: 166px;
+}
+
+.event_null_section .artist_container.calender_Section {
+    padding-bottom: 233px;
+}
+
+html[dir="rtl"] .eventl1 .artistRows .col_area .event_date::after {
+    left: auto;
+    right: 0;
+}
+
+html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(3)::after {
+    left: 0;
+    right: auto;
 }
 
 @media(max-width: 1024px) {
@@ -883,6 +1027,19 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     .aboutl2.artist_page .programMainHeading {
         padding-bottom: 100px;
     }
+    
+    /*Event Null Section*/
+    .event_null_section .no_event {
+        padding: 60px 0;
+    }
+    
+    .event_null_section .calender_Section .artist_inner {
+        padding-top: 60px;
+    }
+    
+    .event_null_section .artist_container.calender_Section {
+        padding-bottom: 60px;
+    }
 
 
 }
@@ -954,7 +1111,7 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     .programl2 .filterSection .filters {
         padding-bottom: 60px;
     }
-    
+
     .programl2 .artistRow {
         background: #fff;
     }
@@ -1110,41 +1267,132 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     .eventL2 .artist_carousel {
         margin-bottom: 50px;
     }
-    
+
     /*About L2*/
     .aboutl2 .our_vision_container .our_vision_wrapper {
         padding: 36px 15px 39px;
     }
-    
+
     .aboutl2 .our_vision_container .our_vision_Desc h2 {
         margin-bottom: 50px;
     }
-    
+
     .aboutl2 .location_section .artist_inner {
         padding-top: 88px;
         padding-bottom: 77px;
     }
-    
+
     .aboutl2 .artist_container.programs_container .artist_inner {
         padding-top: 42px;
         padding-bottom: 53px;
     }
-    
+
     .aboutl2 #programs_slider .artist_col .artist_content a.seeArtist {
         margin-top: 72px;
     }
-    
+
     .aboutl2 .tickets_section {
         margin-top: 26px;
         padding-bottom: 38px;
     }
-    
+
     .aboutl2 .tickets_section .artist_inner {
         padding-top: 60px;
     }
-    
+
     .aboutl2.artist_page {
         padding-bottom: 0;
     }
+
+    /*Event L1*/
+    .eventl1.artist_page .programMainHeading {
+        padding-bottom: 90px;
+    }
+
+    .eventl1.artist_page .filterSection .filters {
+        padding-bottom: 120px;
+    }
+
+    .eventl1.artist_page .filterSection .filters .filter:nth-child(1),
+    .eventl1.artist_page .filterSection .filters .filter:nth-child(2) {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .eventl1.artist_page .filterSection .filters .filter {
+        margin-bottom: 20px;
+    }
+
+    .eventl1.artist_page .filterSection .filters .filter:last-child {
+        margin-bottom: 0;
+    }
+
+    .eventl1 .artistRows .col_area {
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+
+    .eventl1 .artistRows .col_area .event_date {
+        position: relative;
+        left: auto;
+        width: 100%;
+        height: auto;
+        padding: 30px;
+    }
+
+    .eventl1 .artistRows .col_area .event_date::after {
+        width: 100%;
+    }
+
+    .eventl1 .artistRows .col_area .event_date h1 {
+        line-height: 0.4;
+        padding-top: 0.3em;
+    }
+
+    .eventl1 .artistRows .col_area .event_date p br {
+        display: none;
+    }
+
+    .eventl1 .artistRows .col_area .event_date p strong::after {
+        content: '/';
+        position: relative;
+        font-weight: 400;
+        padding: 0 5px;
+    }
+
+    .eventl1 .artistRows .col_area .artistRow {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .eventl1 .artistRows .col_area .col_item:nth-child(3) {
+        top: 0;
+    }
+
+    .eventl1 .artistRows .col_area .col_item:nth-child(4) {
+        margin-top: 0;
+    }
+
+    .eventl1 .artistRows .col_area:last-child {
+        margin-bottom: 46px;
+    }
+
+    .eventl1.about_explore {
+        padding-bottom: 0;
+    }
+
+    .eventl1.vision_container {
+        padding-top: 0;
+    }
+
+    html[dir="rtl"] .eventl1 .filterSection .filters .filter:first-child {
+        margin-left: 0;
+    }
+    
+    /*Event Null*/
+    .eventl1.artist_page .filterSection .filters {
+        padding-bottom: 0px;
+    }
+
 
 }
