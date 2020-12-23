@@ -398,6 +398,10 @@ html[dir="rtl"] .tickets_section .ticket_row .typeLocation .type {
     text-transform: uppercase;
 }
 
+.artist_l2 .programMainHeading .mainHeading {
+    margin-bottom: 10px;
+}
+
 .artist_carousel {
     margin-bottom: 65px;
 }
@@ -844,6 +848,15 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_dat
 }
 
 /*Leaders and Curators L2 */
+.leaderCurator.artist_page .programMainHeading {
+    padding-bottom: 167px;
+}
+
+.leaders_section .artist_inner {
+    padding-top: 0;
+    padding-bottom: 115px;
+}
+
 .leaderCurator_row {
     flex-wrap: wrap;
 }
@@ -858,12 +871,14 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_dat
     margin-right: 0;
 }
 
-.leaderCurator_row .leaders_col .imgArea img{
+.leaderCurator_row .leaders_col .imgArea img {
     width: 100%;
+    display: block;
 }
 
 .leaderCurator_row .leaders_col .contentArea {
-    padding: 30px 21px 0px 30px;
+    padding: 30px 21px 21px 30px;
+    background: #fff;
 }
 
 .leaderCurator_row .leaders_col .contentArea .leader_name {
@@ -880,7 +895,92 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_dat
 }
 
 .leaders_section {
-    padding-bottom: 45px;
+    padding-bottom: 33px;
+}
+
+.curator.leaders_section .artist_inner {
+    padding-bottom: 81px;
+}
+
+.curator.leaders_section {
+    padding-bottom: 0;
+}
+
+.curator .leaderCurator_row .leaders_col {
+    margin-bottom: 50px;
+}
+
+.leaderCurator .collabSection .programRows.about_page {
+    padding-top: 0;
+    padding-bottom: 199px;
+}
+
+html[dir="rtl"] .leaderCurator_row .leaders_col {
+    margin-right: 0;
+    margin-left: 2.5%;
+}
+
+html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
+    margin-left: 0;
+}
+
+
+/*Contact L2*/
+/*mini banner*/
+.mini_banner {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 340px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.mini_banner > img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.mini_banner h1 {
+    position: relative;
+    z-index: 4;
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 110%;
+}
+
+/*Get Touch White*/
+.getTouch_white {
+    background-image: url(../images/bg-white.png);
+}
+
+.getTouch.getTouch_white h2,
+.newsletter.getTouch_white,
+.getTouch_white .getTouch_inner h4,
+.getTouch_white .getTouch_inner p,
+.getTouch_white .getTouch_right .formControl,
+.getTouch_white .getTouch_right .submitBtn{
+    color: #000;
+    border-color: #000;
+}
+
+.getTouch_white .getTouch_right .formControl::-webkit-input-placeholder {
+    color: #000;
+}
+
+.getTouch_white .getTouch_right .formControl:-ms-input-placeholder {
+    color: #000;
+}
+
+.getTouch_white .getTouch_right .formControl::placeholder {
+    color: #000;
 }
 
 
@@ -1085,6 +1185,52 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_dat
         padding-bottom: 60px;
     }
 
+    /*Leaders and Curators L2 */
+    .leaderCurator.artist_page .programMainHeading {
+        padding-bottom: 100px;
+    }
+
+    .leaders_section .artist_inner h2 {
+        font-size: 24px;
+        line-height: 110%;
+        margin-bottom: 17px;
+    }
+
+    .leaders_section .artist_inner {
+        padding-bottom: 72px;
+    }
+
+    .leaders_section {
+        padding-bottom: 0;
+    }
+
+
+    .leaders_section.curator {
+        border-top: 1px solid #000;
+    }
+
+    .leaderCurator_row .leaders_col,
+    .curator .leaderCurator_row .leaders_col {
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+
+    .leaderCurator_row .leaders_col .contentArea {
+        font-size: 14px;
+        padding: 22px 15px;
+    }
+
+    .leaderCurator_row .leaders_col:last-child {
+        margin-bottom: 17px;
+    }
+
+    .curator.leaders_section .artist_inner {
+        padding-top: 62px;
+    }
+
+    .leaderCurator .collabSection .programRows.about_page {
+        padding-bottom: 45px;
+    }
 
 }
 
@@ -1436,6 +1582,17 @@ html[dir="rtl"] .eventl1 .artistRows .col_area .col_item:nth-child(2) .event_dat
     /*Event Null*/
     .eventl1.artist_page .filterSection .filters {
         padding-bottom: 0px;
+    }
+    
+    
+    /*mini banner*/
+    .mini_banner {
+        min-height: 240px;
+    }
+    
+    .mini_banner h1 {
+        font-size: 24px;
+        line-height: 110%;
     }
 
 
