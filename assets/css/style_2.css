@@ -800,7 +800,8 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
 }
 
 .eventl1.vision_container {
-    padding-bottom: 0;
+    padding-bottom: 92px;
+    padding-top: 0;
 }
 
 /*No event Section*/
@@ -1564,7 +1565,7 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     }
 
     .eventl1 .artistRows .col_area:last-child {
-        margin-bottom: 46px;
+        margin-bottom: 45px;
     }
 
     .eventl1.about_explore {
@@ -1573,6 +1574,11 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
 
     .eventl1.vision_container {
         padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .eventl1 .artistRows {
+        padding-top: 68px;
     }
 
     html[dir="rtl"] .eventl1 .filterSection .filters .filter:first-child {
