@@ -314,6 +314,10 @@ html[dir="rtl"] header .hedaerWrap .mainMenu {
     z-index: 99;
     left: -15px;
 }
+html[dir="rtl"] .mainMenu > li.hasSubmenu .subMenu {
+    left: auto;
+    right: -15px;
+}
 .mainMenu > li.hasSubmenu:hover .subMenu {
     transform: scale(1);
 }
@@ -1424,6 +1428,7 @@ html[dir="rtl"] .buyButtons {
     font-size: 60px;
     font-weight: 800;
     margin-bottom: 40px;
+    text-transform: uppercase;
 }
 .programMainHeading .mainPara {
     font-size: 24px;
@@ -1434,6 +1439,7 @@ html[dir="rtl"] .buyButtons {
 }
 .programRows .programRow {
     display: flex;
+    max-height: 600px;
 }
 .programRows .programRow > div {
     width: 50%;
@@ -1443,6 +1449,9 @@ html[dir="rtl"] .buyButtons {
 }
 .programImage img {
     display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 .programRows .programRow .programDetails {
     padding: 44px 50px 50px 48px;
@@ -1455,6 +1464,7 @@ html[dir="rtl"] .buyButtons {
     line-height: 30px;
     font-weight: 800;
     text-transform: uppercase;
+    margin-bottom: 50px;
 }
 .programRows .programRow .programDetails p {
     font-size: 18px;
