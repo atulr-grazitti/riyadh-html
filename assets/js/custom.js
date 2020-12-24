@@ -49,6 +49,22 @@ $(document).ready(function() {
         $('body').toggleClass('menuOpened');
         $('.menuWrap').css('top', headerHeight);
     });
+    
+    // Event page control z-index
+    var item_event = $(".eventl1 .artistRows .col_area");
+    item_event.each(function(i){
+      $(this).css('z-index', item_event.length-i);
+    });
+    
+    /*Get In Touch*/
+    $(".getTouch.get_in_touch .optionListing li").click(function() {
+        var itemtoshow = $(this).attr("data-option");
+        $(".getTouch.get_in_touch .getTouch_right").hide();
+        $(".getTouch.get_in_touch .formArea ." + itemtoshow + "").show();
+    })
+    
+    
+    
     // $('.noorRiyadh').parallax("50%", 0.05);
     // var rellax = new Rellax('.parallax');
     var controller = new ScrollMagic.Controller();
@@ -63,6 +79,7 @@ $(document).ready(function() {
                     .setTween("#parallax2 > div", {y: "20%", ease: Linear.easeNone})
                     .addIndicators()
                     .addTo(controller);
+    
 });
 var lastScrollTop = 0;
 $(window).scroll(function() {
