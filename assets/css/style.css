@@ -2465,7 +2465,7 @@ html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
     }
 
     .newsletter_bg {
-        padding: 34px 0 0;
+        padding: 34px 0 ;
     }
 
     .getTouch {
@@ -2691,11 +2691,15 @@ html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
 
 @media(max-width:767px) {
 
-    .getTouch h2,
-    .newsletter h2 {
+    .getTouch h2 {
         font-size: 28px;
     }
-
+    
+    .newsletter h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
     .footer .socialMenu ul li.lang {
         display: none;
     }
@@ -3100,10 +3104,6 @@ html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
         margin-bottom: 5px;
     }
 
-    .newsletter {
-        padding: 0 0 40px;
-    }
-
     .newsletter_inner {
         padding: 40px 0;
     }
@@ -3113,7 +3113,7 @@ html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
     }
 
     .newsletterForm {
-        padding: 25px 0 0;
+        padding: 15px 13px 0 23px;
     }
 
     .newsletterForm form {
@@ -3122,11 +3122,14 @@ html[dir="rtl"] .filters .filter .dropDownFilter .selectedOption.opened:after {
 
     .newsletterForm .newsInput {
         margin: 0 0 15px;
+        font-size: 14px;
     }
 
     .newsletterForm .submitBtn_newsletter {
-        margin: 0 auto;
+        margin: 15px auto 0 auto;
     }
+    
+    
 
     .footerMenu ul li {
         padding: 0 10px;

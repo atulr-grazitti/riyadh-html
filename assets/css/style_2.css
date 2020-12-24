@@ -716,7 +716,7 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     display: flex;
     justify-content: space-between;
     position: relative;
-    margin-bottom: -182px;
+    margin-bottom: -200px;
 }
 
 .eventl1 .artistRows .col_area:last-child {
@@ -744,6 +744,7 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 .eventl1 .artistRows .col_area .event_date::after {
@@ -787,7 +788,6 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     margin-top: 235px;
 }
 
-.eventl1 .artistRows .artistRow .artistContent > p,
 .eventl1 .artWorkNames p {
     display: -webkit-box;
     -webkit-line-clamp: 4;
@@ -795,13 +795,60 @@ html[dir="rtl"] .artist_detail_wrapper .artist_detail_row .artist-sidebar {
     overflow: hidden;
 }
 
+.eventl1 .artistRows .artistRow .artistContent .artistName {
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 90%;
+}
+
+.eventl1 .artistRows .artistRow  .artistContent .btnGroup {
+    margin-top: 62px;
+}
+
+.eventl1 .artistContent .btnGroup > span {
+    margin-bottom: 4px;
+}
+
+.eventl1 .artistContent .btnGroup > span:last-child {
+    margin-bottom: 0;
+}
+
+.eventl1 .artistContent .seeMoreArtist {
+    margin-top: 25px;
+}
+
+.eventl1 .artistRows .artistRow .artistContent {
+    padding: 30px 30p 33px;
+}
+
+.eventl1 .filterSection > p {
+    margin-bottom: 7px;
+    padding-left: 0;
+}
+
+.eventl1 .filterSection .filters {
+    padding-bottom: 50px;
+}
+
 .eventl1.about_explore {
-    padding-bottom: 66px;
+    padding-bottom: 0;
 }
 
 .eventl1.vision_container {
     padding-bottom: 92px;
-    padding-top: 0;
+    padding-top: 92px;
+}
+
+.eventl1 .about_explore .about_inner {
+    padding-bottom: 45px;
+}
+
+.eventl1 .vision_inner .vision_left {
+    padding: 44px 50px 50px 48px;
+}
+
+.eventl1 .common_inner h5 {
+    margin-bottom: 17px;
 }
 
 /*No event Section*/
@@ -961,7 +1008,6 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
 .getTouch_white {
     background-image: url(../images/bg-white.png);
 }
-
 .getTouch.getTouch_white h2,
 .newsletter.getTouch_white,
 .getTouch_white .getTouch_inner h4,
@@ -971,17 +1017,22 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     color: #000;
     border-color: #000;
 }
-
 .getTouch_white .getTouch_right .formControl::-webkit-input-placeholder {
     color: #000;
 }
-
 .getTouch_white .getTouch_right .formControl:-ms-input-placeholder {
     color: #000;
 }
-
 .getTouch_white .getTouch_right .formControl::placeholder {
     color: #000;
+}
+
+.get_in_touch.getTouch.getTouch_white .filters .filter .dropDownFilter .selectedOption {
+    color: #000;
+}
+
+.get_in_touch.getTouch.getTouch_white .filters .filter .dropDownFilter .selectedOption::after {
+    background-image: url('../images/filterCaret.svg');
 }
 
 @media(max-width: 1024px) {
@@ -1500,9 +1551,8 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     }
 
     .eventl1.artist_page .filterSection .filters {
-        padding-bottom: 120px;
+        padding-bottom: 68px;
     }
-
     .eventl1.artist_page .filterSection .filters .filter:nth-child(1),
     .eventl1.artist_page .filterSection .filters .filter:nth-child(2) {
         width: 100%;
@@ -1564,7 +1614,7 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     }
 
     .eventl1 .artistRows .col_area:last-child {
-        margin-bottom: 45px;
+        margin-bottom: 41px;
     }
 
     .eventl1.about_explore {
@@ -1577,8 +1627,61 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     }
 
     .eventl1 .artistRows {
-        padding-top: 68px;
+        padding-top: 0;
     }
+    
+    .eventl1 .filterSection > p {
+        margin-bottom: 13px;
+    }
+    
+    .eventl1 .artistRows .artistRow .artistContent .artistName {
+        font-size: 16px;
+        line-height: 130%;
+        margin-bottom: 1em;
+    }
+    
+    .eventl1 .artistRows .artistRow .artistContent .btnGroup {
+        margin-top: 30px;
+    }
+    
+    .eventl1 .artistContent .seeMoreArtist {
+        margin-top: 26px;
+    }
+    
+    .eventl1 .common_inner h5 {
+        margin-bottom: 25px;
+    }
+    
+    .eventl1 .about_explore .about_inner h2 {
+        margin-bottom: 22px;
+    }
+    
+    .eventl1 .about_explore .about_inner p {
+        margin-bottom: 39px;
+    }
+    
+    .eventl1 .about_explore .about_inner .buyBtn {
+        margin-bottom: 5px;
+    }
+    
+    .eventl1 .vision_inner .vision_left {
+        padding: 30px 15px 15px;
+    }
+    
+    .eventl1 .vision_inner h2 {
+        font-size: 20px;
+        line-height: 90%;
+        margin-bottom: 60px;
+    }
+    .eventl1 .vision_inner p {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    
+    .event1 .vision_inner a.readBtn {
+        margin-top: 55px;
+    }
+    
 
     html[dir="rtl"] .eventl1 .filterSection .filters .filter:first-child {
         margin-left: 0;
