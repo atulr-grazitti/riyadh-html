@@ -967,7 +967,7 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
 .getTouch_white .getTouch_inner h4,
 .getTouch_white .getTouch_inner p,
 .getTouch_white .getTouch_right .formControl,
-.getTouch_white .getTouch_right .submitBtn{
+.getTouch_white .getTouch_right .submitBtn {
     color: #000;
     border-color: #000;
 }
@@ -983,7 +983,6 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
 .getTouch_white .getTouch_right .formControl::placeholder {
     color: #000;
 }
-
 
 @media(max-width: 1024px) {
 
@@ -1576,7 +1575,7 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
         padding-top: 0;
         padding-bottom: 0;
     }
-    
+
     .eventl1 .artistRows {
         padding-top: 68px;
     }
@@ -1589,13 +1588,13 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     .eventl1.event_null.artist_page .filterSection .filters {
         padding-bottom: 0px;
     }
-    
-    
+
+
     /*mini banner*/
     .mini_banner {
         min-height: 240px;
     }
-    
+
     .mini_banner h1 {
         font-size: 24px;
         line-height: 110%;

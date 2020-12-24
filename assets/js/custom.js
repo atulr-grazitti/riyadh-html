@@ -52,11 +52,16 @@ $(document).ready(function() {
     
     // Event page control z-index
     var item_event = $(".eventl1 .artistRows .col_area");
-    console.log("item_event");
-    console.log(item_event);
     item_event.each(function(i){
       $(this).css('z-index', item_event.length-i);
     });
+    
+    /*Get In Touch*/
+    $(".getTouch.get_in_touch .optionListing li").click(function() {
+        var itemtoshow = $(this).attr("data-option");
+        $(".getTouch.get_in_touch .getTouch_right").hide();
+        $(".getTouch.get_in_touch .formArea ." + itemtoshow + "").show();
+    })
     
     
     

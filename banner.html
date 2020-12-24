@@ -269,43 +269,100 @@
         </div>
     </section>
     <!-- Get in touch section -->
-    <div class="getTouch parallax">
+    <div class="getTouch parallax get_in_touch">
         <div class="container">
-            <h2>GET IN TOUCH</h2>
+            <div class="heading-inner">
+                <h4>CONTACT</h4>
+                <h2>GET IN TOUCH</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros mi, fermentum nec sem sit amet, viverra placerat turpis.</p>
+            </div>
             <div class="getTouch_inner d-flex">
-                <div class="getTouch_left">
-                    <h4>Send us a message</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eros mi, fermentum nec sem sit amet, viverra placerat turpis.</p>
+                <div class="filters">
+                    <div class="filter">
+                        <div class="dropDownFilter">
+                            <span class="selectedOption">Select Subject</span>
+                            <ul class="optionListing">
+                                <li data-option="general_select">GENERAL</li>
+                                <li data-option="artist_select">ARTIST SUBMISSIONS</li>
+                                <li data-option="voluntter_application">VOLUNTEER APPLICATION</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="getTouch_right">
-                    <form>
-                        <div class="formGroup">
-                            <input type="text" placeholder="Name*" class="formControl" />
-                        </div>
-                        <div class="formGroup">
-                            <input type="text" placeholder="Email*" class="formControl" />
-                        </div>
-                        <div class="formGroup">
-                            <input type="text" placeholder="Select Subject" class="formControl" />
-                        </div>
-                        <div class="formGroup">
-                            <textarea class="formControl" placeholder="Message*"></textarea>
-                        </div>
-                        <input type="submit" value="SUBMIT" class="submitBtn" />
-                    </form>
+                <div class="formArea">
+                    <div class="getTouch_right general_select">
+                        <form>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Name*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Email*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Select Subject" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <textarea class="formControl" placeholder="Message*"></textarea>
+                            </div>
+                            <input type="submit" value="SUBMIT" class="submitBtn" />
+                        </form>
+                    </div>
+                    <div class="getTouch_right artist_select">
+                        <form>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Name*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Email*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Select Subject" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <textarea class="formControl" placeholder="Message*"></textarea>
+                            </div>
+                            <input type="submit" value="SUBMIT" class="submitBtn" />
+                        </form>
+                    </div>
+                    <div class="getTouch_right voluntter_application">
+                        <form>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Name*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Email*" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <input type="text" placeholder="Select Subject" class="formControl" />
+                            </div>
+                            <div class="formGroup">
+                                <textarea class="formControl" placeholder="Message*"></textarea>
+                            </div>
+                            <input type="submit" value="SUBMIT" class="submitBtn" />
+                        </form>
+                    </div>
                 </div>
+            </div>
+        </div>
+        <div class="conatiner">
+            <div class="thank-Msg">
+                <h2>THANK YOU</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <a href="" class="buyBtn">CONTACT</a>
             </div>
         </div>
     </div>
     <!-- Newsletter section -->
-    <div class="newsletter_bg">
+    <div class="newsletter_bg parallax">
         <div class="newsletter">
-            <div class="newsletter_inner">
-                <div class="container">
+            <div class="container">
+                <div class="newsletter_inner">
+
                     <h2>NEWSLETTER</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     <div class="newsletterForm">
                         <form class="d-flex">
+                            <input type="text" placeholder="Your full name*" class="newsInput" />
                             <input type="text" placeholder="Your email address" class="newsInput" />
                             <input type="submit" value="SUBMIT" class="submitBtn_newsletter" />
                         </form>
@@ -341,7 +398,7 @@
             </div>
             <div class="footerBottom d-flex">
                 <div class="footerLogos d-flex">
-                	<a href="" class="pri_policy">Policies / Privacy</a>
+                    <a href="" class="pri_policy">Policies / Privacy</a>
                     <img src="assets/images/RA_Logo_W.png" class="ra_logo" alt="Riyadh Art" />
                     <img src="assets/images/Noor-Riyad@3x-1.png" class="noor_logo" alt="Noor Riyadh" />
                     <img src="assets/images/2030-Logo@3x-1.png" class="copyright_logo" alt="Copyright" />
@@ -359,11 +416,14 @@
     <script type="text/javascript" src="assets/js/gsap.min.js"></script>
     <script type="text/javascript" src="assets/js/ScrollMagic.min.js"></script>
     <script type="text/javascript" src="assets/js/animation.gsap.js"></script>
-    
+
     <script type="text/javascript" src="assets/js/debug.addIndicators.min.js"></script>
 
     <script src="assets/js/rellax.min.js"></script>
     <script src="assets/js/custom.js"></script>
+
+
+
 </body>
 
 </html>
