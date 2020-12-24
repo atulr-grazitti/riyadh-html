@@ -1,0 +1,409 @@
+/* Privacy policy */
+
+.privacy_page {
+    margin: 72px 0 0;
+    padding: 127px 0 75px;
+}
+.privacyTitle {
+    text-align: center;
+}
+.privacyTitle h2 {
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 66px;
+    margin: 0 0 20px;
+}
+.privacyTitle p {
+    font-size: 24px;
+    line-height: 31px;
+    max-width: 830px;
+    margin: 0 auto;
+}
+.privacyContent {
+    padding: 277px 0 0;
+}
+.privacyContent .privacyCol {
+    border-top: 1px solid #000;
+	display: flex;
+    justify-content: space-between;
+	padding: 21px 0 85px;
+}
+.privacyContent .privacyCol_left {
+    width: 100%;
+    max-width: 370px;
+}
+.privacyContent .privacyCol_left h5 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+.privacyContent .privacyCol_right {
+    width: 100%;
+    max-width: 570px;
+}
+.privacyContent .privacyCol_right p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 25px;
+}
+.privacyContent .privacyCol_right p strong {
+    display: block;
+}
+
+
+/* Privacy policy page 2 */
+
+.privacyContent .privacyCol.privacyCol1 {
+    padding: 68px 0;
+	justify-content: center;
+}
+.privacyContent .privacyCol.privacyCol1 .privacyCol_right {
+    max-width: 770px;
+}
+.privacyContent .privacyCol.privacyCol1 .privacyCol_right p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/* 404 page */
+
+.notFound_page {
+    margin: 72px 0 0;
+    padding:166px 0 185px;
+}
+.notFound_section {
+    text-align: center;
+}
+.notFound_section h1 {
+    font-weight: 800;
+    font-size: 300px;
+    line-height: 330px;
+}
+.notFound_section p {
+    font-size: 24px;
+    line-height: 31px;
+    margin: 0 auto 70px;
+    max-width: 830px;
+}
+.btnProgram.notFoundBtn {
+    margin: 0;
+    min-width: 205px;
+    height: 52px;
+    line-height: 52px;
+}
+
+
+/* Media center page */
+
+.programMainHeading.mediaMain_heading .mainHeading {
+    margin: 0 0 18px;
+}
+.programMainHeading.mediaMain_heading .mainPara {
+    max-width: 830px;
+    margin: 0 auto;
+}
+.programMainHeading.mediaMain_heading {
+    padding-bottom: 244px;
+}
+.mediaContent {
+    display: flex;
+    justify-content: space-between;
+	padding-bottom: 139px;
+}
+.mediaContent .mediaLeft {
+    width: 100%;
+    max-width: 570px;
+}
+.mediaContent h5 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+	color:#212121;
+}
+.mediaContent ul.factsList {
+    margin: 0 0 60px;
+}
+.mediaContent ul.factsList li {
+    border-top: 1px solid #000;
+	padding:15px 10px 6px 0;
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+}
+html[dir="rtl"] .mediaContent ul.factsList li{
+	padding:15px 0 6px 10px;
+}
+.mediaContent ul.factsList li p {
+    font-size: 16px;
+    line-height: 22px;
+	display: flex;
+	color:#212121;
+}
+.mediaContent ul.factsList li p span.circle {
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+	margin: 3px 10px 0 0;
+}
+html[dir="rtl"] .mediaContent ul.factsList li p span.circle{
+	margin:3px 0px 0 10px;
+}
+.mediaContent ul.factsList li p.upper span {
+    margin-left: 6px;
+}
+html[dir="rtl"] .mediaContent ul.factsList li p.upper span {
+    margin:0 6px 0 0;
+}
+.mediaContent ul.factsList li:last-child {
+    border-bottom: 1px solid #000;
+}
+.mediaContent .mediaRight {
+    width: 100%;
+    max-width: 570px;
+}
+.mediaContent ul.opportunityList li {
+    display: flex;
+    border-top: 1px solid #000;
+	align-items: center;
+	padding-bottom: 30px;
+}
+.mediaContent ul.opportunityList li .mediaImage {
+    width: 170px;
+    margin-right: 30px;
+}
+html[dir="rtl"] .mediaContent ul.opportunityList li .mediaImage{
+	margin:0 0 0 30px;
+}
+.mediaContent ul.opportunityList li p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #212121;
+    margin-bottom: 12px;
+}
+.mediaContent ul.opportunityList li p strong {
+    display: block;
+}
+.mediaContent ul.opportunityList li .mediaReadMore {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #000;
+    letter-spacing: -0.03em;
+}
+.mediaContent h5.mBottom17 {
+    margin: 0 0 17px;
+}
+.mediaContent ul.opportunityList li .mediaReadMore span {
+    margin-left: 10px;
+}
+html[dir="rtl"] .mediaContent ul.opportunityList li .mediaReadMore span{
+	margin:0 10px 0 0;
+}
+.mediaContent ul.opportunityList li .mediaImage img {
+    display: block;
+}
+.mediaContent ul.opportunityList li .mediaContentRight {
+    width: 100%;
+    max-width: 370px;
+}
+.mediaContent ul.opportunityList li:last-child {
+    padding-bottom: 0;
+}
+.mediaContent ul.factsList li p.arrowMobile{
+	display:none;
+}
+
+
+
+/* Media query */
+
+@media (max-width:1199px){
+	.privacy_page {
+		padding: 80px 0 142px;
+	}
+	.privacyTitle h2 {
+		font-size: 45px;
+		line-height: 50px;
+	}
+	.privacyTitle p {
+		font-size: 20px;
+		line-height: 29px;
+	}
+	.privacyContent {
+		padding: 126px 0 0;
+	}
+	.privacyContent .privacyCol,
+	.privacyContent .privacyCol.privacyCol1	{
+		padding: 21px 0 30px;
+	}
+	.notFound_page{
+		padding:100px 0;
+	}
+	.notFound_section h1 {
+		font-size: 200px;
+		line-height: 230px;
+	}
+	.notFound_section p {
+		margin: 0 auto 42px;
+	}
+	.programMainHeading.mediaMain_heading {
+		padding-bottom: 144px;
+	}
+	.mediaContent .mediaLeft {
+		width: 75%;
+		margin-right: 40px;
+	}
+	html[dir="rtl"] .mediaContent .mediaLeft {
+		margin-right:0;
+		margin-left:40px;
+	}
+}
+
+@media (max-width:1023px){
+	.privacyContent .privacyCol {
+		flex-direction: column;
+	}
+	.privacyContent .privacyCol_left,
+	.privacyContent .privacyCol_right,
+	.privacyContent .privacyCol.privacyCol1 .privacyCol_right{
+		max-width:100%;
+	}
+	.privacyContent .privacyCol_left{
+		margin-bottom:42px;
+	}
+	.mediaContent {
+		flex-direction: column;
+		padding-bottom: 74px;
+	}
+	.mediaContent .mediaLeft {
+		width: 100%;
+		margin-right: 0;
+		max-width: 100%;
+	}
+	html[dir="rtl"] .mediaContent .mediaLeft {
+		margin-left:0;
+	}
+	.mediaContent .mediaRight {
+		max-width: 100%;
+	}
+	.programMainHeading.mediaMain_heading {
+		padding-bottom: 116px;
+	}
+}
+
+@media (max-width:767px){
+	.privacy_page {
+		padding: 46px 15px 130px;
+	}
+	.privacyTitle h2 {
+		font-size: 30px;
+		line-height: 33px;
+		margin: 0 0 25px;
+	}
+	.privacyTitle p,
+	.privacyContent .privacyCol.privacyCol1 .privacyCol_right p	{
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.privacyContent .privacyCol_left h5 {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.privacyContent .privacyCol_right p{
+		margin-bottom:19px;
+	}
+	.notFound_page {
+		padding:263px 0 285px;
+	}
+	.notFound_section h1 {
+		font-size: 120px;
+		line-height: 132px;
+		margin-bottom:10px;
+	}
+	.notFound_section p {
+		font-size: 14px;
+		line-height: 18px;
+	}
+	.btnProgram.notFoundBtn {
+		min-width: 161px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+	}
+	.programMainHeading.mediaMain_heading .mainPara{
+		font-size: 14px;
+		line-height: 18px;
+	}
+    .media_page .programMainHeading.mediaMain_heading ,
+    .media_page .mediaContent {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+	.mediaContent h5{
+		font-size: 16px;
+		line-height: 22px;
+		margin: 0 0 7px;
+	}
+	.mediaContent ul.factsList li p{
+		font-size: 14px;
+		line-height: 19px;
+	}
+	.mediaContent ul.factsList li p.upper {
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.mediaContent ul.factsList li p.upper span{
+		width:9px;
+	}
+	.mediaContent ul.factsList li{
+		padding: 15px 0 9px;
+	}
+	html[dir="rtl"] .mediaContent ul.factsList li{
+		padding:15px 0 9px;
+	}
+	.mediaContent h5.mBottom17 {
+		margin: 0 0 7px;
+	}
+	.mediaContent .mediaRight {
+		margin-top: 8px;
+	}
+	.mediaContent ul.opportunityList li .mediaImage {
+		width: 161px;
+		margin-right: 20px;
+	}
+	html[dir="rtl"] .mediaContent ul.opportunityList li .mediaImage{
+		margin:0 0 0 20px;
+	}
+	.mediaContent ul.opportunityList li p {
+		font-size: 14px;
+		line-height: 19px;
+		margin-bottom: 8px;
+	}
+	.mediaContent ul.opportunityList li .mediaReadMore{
+		font-size:12px;
+	}
+	.mediaContent ul.opportunityList li{
+		padding-bottom: 20px;
+	}
+	.mediaContent ul.factsList li p span.circle{
+		margin:3px 8px 0 0;
+	}
+	html[dir="rtl"] .mediaContent ul.factsList li p span.circle{
+		margin:3px 0px 0 8px;
+	}
+	.mediaContent ul.factsList li p.arrowMobile{
+		display:block;
+	}
+}
+
+@media (max-width:570px){
+	.mediaContent ul.opportunityList li .mediaContentRight {
+		max-width: 161px;
+		padding-top: 10px;
+	}
+}
