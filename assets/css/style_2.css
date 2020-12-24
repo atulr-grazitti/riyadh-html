@@ -1586,7 +1586,7 @@ html[dir="rtl"] .leaderCurator_row .leaders_col:nth-child(3n) {
     }
 
     /*Event Null*/
-    .eventl1.artist_page .filterSection .filters {
+    .eventl1.event_null.artist_page .filterSection .filters {
         padding-bottom: 0px;
     }
     
