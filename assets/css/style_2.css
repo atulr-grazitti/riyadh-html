@@ -35,6 +35,13 @@ html[dir="rtl"] .sponsor_container .sponsor_col:nth-child(4n) {
     margin-right: 18px;
     flex-shrink: 0;
 }
+.sponsor_container .sponsor_img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: inherit;
+    object-position: center
+}
 
 html[dir="rtl"] .sponsor_container .sponsor_img {
     margin-right: 0;
