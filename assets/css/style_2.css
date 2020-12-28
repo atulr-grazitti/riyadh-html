@@ -201,6 +201,7 @@ html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link .ar
 /*Collab Section*/
 .collabSection .programRows.about_page {
     padding-bottom: 47px;
+    padding-top: 0;
 }
 
 
