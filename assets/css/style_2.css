@@ -191,7 +191,7 @@ html[dir="rtl"] .our_vision_container .download_links_wrapper .download_link .ar
 }
 
 .artist_container.about_page .artist_inner {
-    padding: 63px 0;
+    padding: 63px 0 33px;
 }
 
 .artist_container.about_page .artist_col .artist_content strong {
